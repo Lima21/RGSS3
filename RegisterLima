@@ -1,0 +1,27 @@
+#* Configuração geral *#
+
+Name: Card Game Login System
+Version: 0.1
+Size: ~100Kb
+<new>This current version it's in alpha version.</new>
+Website: www.dax-soft.weebly.com
+Date: 24/11/2016
+
+#* Informações do plugin para o PluginManager *#
+
+/*Created by: Lima
+Date: 24/11/2016
+Any bug or whatever, contact-me*/
+
+#* Todos os arquivos dentro do file, serão executados *#
+<files>
+output: rb
+folder: Lima
+login <l: https://raw.githubusercontent.com/Lima21/RGSS3/master/login.rb>
+</files>
+
+#* Thumbnail *#
+<graphic>
+
+</graphic>
+
