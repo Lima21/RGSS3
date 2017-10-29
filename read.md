@@ -1,30 +1,29 @@
-# (GitHub-Flavored) Markdown Editor
+# Flow controller
 
-Basic useful feature list:
+Feature list:
 
- * Ctrl+S / Cmd+S to save the file
- * Ctrl+Shift+S / Cmd+Shift+S to choose to save as Markdown or HTML
- * Drag and drop a file into here to load it
- * File contents are saved in the URL so you can share files
-
-
-I'm no good at writing sample / filler text, so go write something yourself.
-
-Look, a list!
-
- * foo
- * bar
- * baz
+ * getDataFromDatabase(users, flows, ufs)
 
 And here's some code! :+1:
 
 ```javascript
-$(function(){
-  $('div').html('I am a div.');
-});
+$scope.getDataFromDatabase = function (users, flows, ufs) {
+	$scope.users;
+    $scope.flows;
+    $scope.usersFlows
+}
 ```
+* $scope.users
+	* Recieve all the information of users
+* $scope.flows
+	* Recieve all the information of flows
+* $scope.userFlows
+	* Recieve all information of userFlows
 
-This is [on GitHub](https://github.com/jbt/markdown-editor) so let me know if I've b0rked it somewhere.
+
+
+
+
 
 
 Props to Mr. Doob and his [code editor](http://mrdoob.com/projects/code-editor/), from which
