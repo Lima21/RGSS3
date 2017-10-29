@@ -1,5 +1,14 @@
 # Flow controller
 
+
+Global Vars:
+* $scope.users
+	* Recieve all the information of users
+* $scope.flows
+	* Recieve all the information of flows
+* $scope.userFlows
+	* Recieve all information of userFlows
+
 Feature list:
 
  * getDataFromDatabase(users, flows, ufs)
@@ -13,12 +22,9 @@ $scope.getDataFromDatabase = function (users, flows, ufs) {
     $scope.usersFlows
 }
 ```
-* $scope.users
-	* Recieve all the information of users
-* $scope.flows
-	* Recieve all the information of flows
-* $scope.userFlows
-	* Recieve all information of userFlows
+
+* createMotor()
+	* Insert $scope.motor var in mongodb and add add filters to auto filter param
 
 
 
